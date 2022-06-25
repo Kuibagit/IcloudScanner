@@ -1,22 +1,37 @@
-# InCloud GitHub云上扫描器
+## ！！
+
+fork from：https://github.com/inbug-team/InCloud
+
+备份、自用
+
+## InCloud GitHub云上扫描器
+
 ![-w784](yun.png)
+
 ## 简介
+
 本工具只可用于安全测试，勿用于非法用途！
+
+
 ### 工具定位
+
 运行于GitHub Actions 的仓库中自动化、自定义和执行软件开发工作流程，可以自己根据喜好定制功能，InCloud已经为您定制好了十种针对网段和域名的不同场景的信息收集与漏洞扫描流程。
-* [PortScan-AllPort](https://github.com/inbug-team/InCloud/tree/PortScan-AllPort) 对单IP文件列表进行全端口扫描，输出可用Web服务标题。
-* [PortScan-AllPort-Xray-Dirscan](https://github.com/inbug-team/InCloud/tree/PortScan-AllPort-Xray-dirscan)   对单IP文件列表进行全端口扫描，输出可用Web服务标题，对Web服务进行Xray爬虫爬取与漏洞扫描，对Web服务进行Ffuf目录递归扫描。。
-* [PortScan-Top1000](https://github.com/inbug-team/InCloud/tree/PortScan-Top1000) 对单C段IP列表进行Top1000端口扫描，输出可用Web服务标题。
-* [PortScan-Top1000-Xray](https://github.com/inbug-team/InCloud/tree/PortScan-Top1000-Xray) 对单C段IP列表进行Top1000端口扫描，输出可用Web服务标题，对Web服务进行Xray爬虫爬取与漏洞扫描。
-* [PortScan-Top1000-Dirscan](https://github.com/inbug-team/InCloud/tree/PortScan-Top1000-Dirscan) 对单C段IP列表进行Top1000端口扫描，输出可用Web服务标题，，对Web服务进行Ffuf目录递归扫描。
-* [PortScan-Top1000-Dirscan-Webcrack](https://github.com/inbug-team/InCloud/tree/PortScan-Top1000-Dirscan-Webcrack) 对单C段IP列表进行Top1000端口扫描，输出可用Web服务标题，，对Web服务进行Ffuf目录递归扫描，对ffuf的扫描结果使用Webcrack进行后台弱口令爆破。
-* [SubDomain-Portscan-Vulnscan](https://github.com/inbug-team/InCloud/tree/SubDomain-Portscan-Vulnscan) 对域名进行子域名枚举与接口查询，对查询的子域名进行Top1000端口扫描，输出可用Web服务标题，对Web服务进行Nuclei漏洞扫描。
-* [SubDomain-Portscan-Xray](https://github.com/inbug-team/InCloud/tree/SubDomain-Portscan-Xray) 对域名进行子域名枚举与接口查询，对查询的子域名进行Top1000端口扫描，输出可用Web服务标题，对Web服务进行Xray爬虫爬取与漏洞扫描。
-* [SubDomain-Portscan-Dirscan](https://github.com/inbug-team/InCloud/tree/SubDomain-Portscan-Dirscan) 对域名进行子域名枚举与接口查询，对查询的子域名进行Top1000端口扫描，输出可用Web服务标题，，对Web服务进行Ffuf目录递归扫描。
-* [SubDomain-Portscan-Dirscan-Webcrack](https://github.com/inbug-team/InCloud/tree/SubDomain-Portscan-Dirscan-Webcrack) 对域名进行子域名枚举与接口查询，对查询的子域名进行Top1000端口扫描，输出可用Web服务标题，，对Web服务进行ffuf目录递归扫描，对ffuf的扫描结果使用Webcrack进行后台弱口令爆破。
+* [PortScan-AllPort](https://github.com/Kuibagit/AutoCloudScan/tree/PortScan-AllPort) 对单IP文件列表进行全端口扫描，输出可用Web服务标题。
+* [PortScan-AllPort-Xray-Dirscan](https://github.com/Kuibagit/AutoCloudScan/tree/PortScan-AllPort-Xray-dirscan)   对单IP文件列表进行全端口扫描，输出可用Web服务标题，对Web服务进行Xray爬虫爬取与漏洞扫描，对Web服务进行Ffuf目录递归扫描。。
+* [PortScan-Top1000](https://github.com/Kuibagit/AutoCloudScan/tree/PortScan-Top1000) 对单C段IP列表进行Top1000端口扫描，输出可用Web服务标题。
+* [PortScan-Top1000-Xray](https://github.com/Kuibagit/AutoCloudScan/tree/PortScan-Top1000-Xray) 对单C段IP列表进行Top1000端口扫描，输出可用Web服务标题，对Web服务进行Xray爬虫爬取与漏洞扫描。
+* [PortScan-Top1000-Dirscan](https://github.com/Kuibagit/AutoCloudScan/tree/PortScan-Top1000-Dirscan) 对单C段IP列表进行Top1000端口扫描，输出可用Web服务标题，，对Web服务进行Ffuf目录递归扫描。
+* [PortScan-Top1000-Dirscan-Webcrack](https://github.com/Kuibagit/AutoCloudScan/tree/PortScan-Top1000-Dirscan-Webcrack) 对单C段IP列表进行Top1000端口扫描，输出可用Web服务标题，，对Web服务进行Ffuf目录递归扫描，对ffuf的扫描结果使用Webcrack进行后台弱口令爆破。
+* [SubDomain-Portscan-Vulnscan](https://github.com/Kuibagit/AutoCloudScan/tree/SubDomain-Portscan-Vulnscan) 对域名进行子域名枚举与接口查询，对查询的子域名进行Top1000端口扫描，输出可用Web服务标题，对Web服务进行Nuclei漏洞扫描。
+* [SubDomain-Portscan-Xray](https://github.com/Kuibagit/AutoCloudScan/tree/SubDomain-Portscan-Xray) 对域名进行子域名枚举与接口查询，对查询的子域名进行Top1000端口扫描，输出可用Web服务标题，对Web服务进行Xray爬虫爬取与漏洞扫描。
+* [SubDomain-Portscan-Dirscan](https://github.com/Kuibagit/AutoCloudScan/tree/SubDomain-Portscan-Dirscan) 对域名进行子域名枚举与接口查询，对查询的子域名进行Top1000端口扫描，输出可用Web服务标题，，对Web服务进行Ffuf目录递归扫描。
+* [SubDomain-Portscan-Dirscan-Webcrack](https://github.com/Kuibagit/AutoCloudScan/tree/SubDomain-Portscan-Dirscan-Webcrack) 对域名进行子域名枚举与接口查询，对查询的子域名进行Top1000端口扫描，输出可用Web服务标题，，对Web服务进行ffuf目录递归扫描，对ffuf的扫描结果使用Webcrack进行后台弱口令爆破。
+
 
 ## 使用方法
+
 [使用视频](https://mp.weixin.qq.com/s/IntTPw4VpgaVzbZd1BZ8IQ)
+
 * 1.将项目fork到自己的github。
 * 2.修改流程文件（.github/workflows/incloud.yaml）里的 git config --local user.email  与   git config --global user.name  改成自己的邮箱与自己的ID（用于报告输出）。
 * 3.修改input目录的扫描目标，使用action标签进行在线编译。
@@ -26,7 +41,10 @@
 * ![-w784](img/inbug03.png)
 * ![-w784](img/inbug04.png)
 * ![-w784](img/inbug05.png)
+
+
 ## References
+
 * https://github.com/chaitin/xray
 * https://github.com/ffuf/ffuf
 * https://github.com/projectdiscovery/nuclei
@@ -36,13 +54,8 @@
 * https://github.com/yzddmr6/WebCrack
 
 ## 最近更新
+
 * [+] 2021/7/20 添加各分支输入备注，修复小bug。
 * [+] 2021/7/22 添加爆破后台弱口令的 SubDomain-Portscan-Dirscan-Webcrack分支、PortScan-Top1000-Dirscan-Webcrack 分支。
 
 
-
-**官网：**
-https://www.inbug.org
-
-同时也可通过公众号联系：
-![-w784](InBug.png)
