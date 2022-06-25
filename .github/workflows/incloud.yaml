@@ -54,7 +54,7 @@ jobs:
         shell: bash
       - name: Xray scan urls
         run: |
-          wget https://github.com/chaitin/xray/releases/download/1.8.1/xray_linux_amd64.zip
+          wget https://github.com/chaitin/xray/releases/download/1.8.4/xray_linux_amd64.zip
           unzip xray_linux_amd64.zip
           mv xray_linux_amd64 xray
           chmod +x xray
